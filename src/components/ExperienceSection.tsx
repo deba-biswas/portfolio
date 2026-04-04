@@ -11,20 +11,6 @@ const timeline = [
     desc: "Tested APIs, validated responses, and identified security vulnerabilities.",
   },
   {
-    type: "cert",
-    title: "Google Cybersecurity Specialization",
-    org: "Google, Coursera",
-    date: "Jan 2025 – Jun 2025",
-    desc: "Learned network security, threat detection, and automation using Linux, SQL & Python.",
-  },
-  {
-    type: "cert",
-    title: "IBM Soft Skills Specialization",
-    org: "IBM, Coursera",
-    date: "Dec 2024 – Jan 2025",
-    desc: "Improved communication, teamwork, and problem-solving skills.",
-  },
-  {
     type: "edu",
     title: "B.Tech in Computer Science Engineering",
     org: "Sister Nivedita University",
@@ -47,7 +33,7 @@ const ExperienceSection = () => {
   return (
     <section
       id="experience"
-      className="section-padding bg-secondary/30"
+      className="section-padding"
       ref={ref}
     >
       <div className="max-w-4xl mx-auto">

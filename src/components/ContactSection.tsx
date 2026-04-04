@@ -33,7 +33,7 @@ ${formData.message}
   };
 
   return (
-    <section id="contact" className="section-padding" ref={ref}>
+    <section id="contact" className="section-padding bg-secondary/30" ref={ref}>
       <div className="max-w-4xl mx-auto">
         {/* Heading */}
         <motion.div
