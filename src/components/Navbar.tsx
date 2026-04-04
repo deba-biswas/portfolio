@@ -128,7 +128,27 @@ const Navbar = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+
+                    const target = document.querySelector(
+                      link.href,
+                    ) as HTMLElement;
+
+                    setMobileOpen(false);
+
+                    setTimeout(() => {
+                      if (target) {
+                        const yOffset = -80;
+                        const y =
+                          target.getBoundingClientRect().top +
+                          window.pageYOffset +
+                          yOffset;
+
+                        window.scrollTo({ top: y, behavior: "smooth" });
+                      }
+                    }, 100);
+                  }}
                   className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {link.label}
