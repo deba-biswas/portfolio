@@ -7,11 +7,11 @@ import projectCafe from "@/assets/cafe-management.png";
 
 const projects = [
   {
-    title: "Cafe Management System",
+    title: "Café Ember - Cafe Management System",
     desc: "System to manage cafe orders, billing, and inventory with a simple and efficient dashboard.",
     tech: ["React", "Node.js", "MongoDB"],
     image: projectCafe,
-    github: "#",
+    github: "https://github.com/deba-biswas/cafe-ember.git",
     live: "#",
     featured: true,
   },
