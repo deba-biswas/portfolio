@@ -67,7 +67,7 @@ const HeroSection = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1CQAhw7VH0utuYTBMumRtXsq5fNpGGLvG"
+              href="https://drive.google.com/uc?export=download&id=1V3ZlJK-ANXUdGTytK5NPvgcBFSVFiZS5"
               target="_blank"
               className="glass-card px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-secondary transition-colors"
             >
