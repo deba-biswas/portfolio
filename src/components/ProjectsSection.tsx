@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Café Ember - Cafe Management System",
     desc: "System to manage cafe orders, billing, and inventory with a simple and efficient dashboard.",
-    tech: ["React", "Node.js", "MongoDB"],
+    tech: ["React", "Tailwind CSS", "Flask", "MongoDB"],
     image: projectCafe,
     github: "https://github.com/deba-biswas/cafe-ember.git",
     live: "#",
