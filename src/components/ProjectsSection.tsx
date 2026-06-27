@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Blogging Platform",
     desc: "Responsive blogging app with authentication and content management features.",
-    tech: ["React", "Tailwind CSS", "Flask", "MongoDB"],
+    tech: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     image: projectBlog,
     github: "https://github.com/deba-biswas/quillspace.git",
     live: "#",
